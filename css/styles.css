@@ -1,0 +1,915 @@
+body{
+    font-family: Montserrat;
+    background-color: #ffff;
+    font-size: 1rem;
+    color: black;
+}
+/* Css de Tecnicas */
+.tecnicas {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    text-decoration: underline;
+}
+.definicion{
+    font-size: 1.0625rem;
+    font-weight: 600;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+
+}
+
+li{
+    text-decoration: none; 
+    list-style: none;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+p{
+    font-size: 16PX;
+}
+/* h1{
+    margin: 0;
+    font-size: 70px;
+    font-weight: 400;
+    position: relative;
+    top: 300px;
+    left: 350px;
+    color: #ffff;*/
+}
+h3{
+    font-size: 1.875rem;
+    text-decoration: underline;
+}
+
+.img-equipamiento{
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+.img-carretes, .img-linea , .img-senuelo, .img-cajapesca{
+    height: 27.4375rem ;
+    width: 35.125rem;}
+
+.img-pescadorplaya, .img-pescadorbarco, .img-senuelopesca {
+    width: 500px;
+    height: 750px;
+}
+.img-personapescado{
+    width: 38.5625rem;
+    height: 25.6875rem;
+}
+.img-portadalocation{
+    width: 100%;
+    height: auto;
+}
+/* CONTENEDOR DE EXPLORA ESTE FORUM */
+.container-forum{
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    background-color: #ffff;
+}
+.container-forum h2 {
+    font-weight: 600;
+    font-size: 30PX;
+}
+.container-forum p{
+    font-size: 16px;
+}
+.container-pescador{
+    width: 100%;
+    position: relative;
+    bottom: 400px;
+}
+.pescador-img{
+    width: 100%;
+    height: 600px;
+}
+.container-blog{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    background-color: #ffff;
+    position: relative;
+    bottom: 900px;
+    left: 950px;
+}
+.container-blog h2{
+    font-weight: 600;
+    font-size: 30px;
+}
+.container-blog p{
+    font-size: 16px;
+}
+
+.container-barco{
+    width: 100%;
+    height:700px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 725PX;
+}
+.img-barco{
+
+    width: 80%;
+    height:500px;
+}
+
+
+/* BARRA DE NAVEGACION */
+.navbar-items{
+    display: flex;
+    gap:50px ;
+    align-content: center;
+    justify-content: center;
+}
+/* TITULO DE LA BARRA DE NAVEGACION */
+.titulo{
+    color: gold;
+    font-weight: 800;
+}
+/* IMG DE LA PORTADA */
+.offthehook{
+    position: absolute;
+    left: 100px;
+    right: 100px;
+    bottom: 100px;
+    font-weight: 300;
+}
+.img-hook{
+    width: 100%;
+    height: 700px;
+}
+.container-hook {
+    margin-top: 25px;
+    display: column;
+    align-content: center;
+    width: 100%;
+    
+    
+}
+/* IMG PESCADO DE EXPLORA ESTE FORO */
+
+/* H2 DE LA PAGINA PRINCIPAL */
+.h2s-page1{
+    line-height: 2.3rem;
+}
+
+
+.text-h1{
+    position: absolute;
+    top: 0px; /* Ajusta según sea necesario */
+    left: 40px;
+    transform: translateX(-50%);
+
+}
+
+
+
+/* Tecnicas */
+.tecnicas{
+    font-size: 30PX;
+    font-weight: 600;
+}
+.definicion{
+    font-size: 20PX;
+    font-weight: 300;
+
+}
+.container-tecnicas{
+    margin: auto;
+    width: 90%;
+}
+.container-tecnicas p  {
+    font-size: 16px;
+    padding: 10px;
+}
+.container-tecnicas h4 {
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: underline;
+}
+.container-tecnicas ul li {
+    font-size: 16PX;
+
+}
+footer P {
+    font-size: 16px;
+}
+footer{
+    margin-top: 20PX;
+}
+/* -------------------------------------------------- */
+.gridsfish{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 250px);
+}
+.gridsfish img{
+    object-fit: contain;
+    grid-column: 2/6;
+    grid-row: 1/2;
+    order: 1;
+}
+.gridsfish h2{
+    font-size: 25px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    order: 4;
+    padding: 12PX;
+    padding-bottom: 16px;
+}
+.gridsfish p{
+    font-size: 16px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    order: 2;
+    align-content:  end;
+    padding: 10PX;
+    background-color: #ffff;
+}
+.gridsblog{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 250px);
+}
+.gridsblog img{
+    width: 100%;
+    object-fit: contain;
+    grid-column:1/6 ;
+    grid-row: 1/3;
+    order: 1;
+}
+.gridsblog h2{
+    font-size: 25px;
+    order: 4;
+    grid-column:4/5;
+    grid-row: 1/2;
+    padding: 10PX;
+    padding-bottom: 16px;
+}
+.gridsblog p{
+    font-size: 16px;
+    order: 2;
+    grid-column:4/5 ;
+    grid-row: 1/2;
+    align-content:  end;
+    background-color: #ffff;
+    padding: 10PX;
+}
+
+.gridscontacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:130px 300px 160PX;
+}
+.gridscontacto img{
+    grid-column: 2/5;
+    grid-row: 2/3;
+    order: 1;
+}
+.gridscontacto h2{
+    font-size: 25px;
+    order: 4;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 10px;
+
+}
+.gridscontacto p{
+    font-size: 16px;
+    order: 2;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    align-content: end;
+    padding: 10px;
+    background-color: #ffff;
+
+}
+form {
+    width: 700px;
+    text-align: center;
+    margin: auto;
+}
+legend{
+    font-size: 25PX;
+    font-weight: 600;
+}
+.fullname {
+    margin: 30px;
+    text-decoration: none;
+    border: none;
+}
+input{
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+textarea{
+    margin-top: 20PX;
+}
+/* -------------------------------------------------- */
+footer{
+    margin-top: 100px;
+    padding: 15px;
+    height: 150px;
+    width: 98%;
+    background-color: rgb(104, 103, 103);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: repeat(3, 1fr 1fr 1fr);
+}
+/* -------------------------------------------------- */
+
+.gridstecnicas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3 , 200px);
+}
+.gridstecnicas img{
+    object-fit: con;
+    width:1330px;
+    height: 700px;
+    grid-column: 1/6;
+    grid-row: 1/3;
+    order: 1;
+}
+.gridstecnicas .h1-tec{
+    color: black;
+    font-size: 25px;
+    grid-column:1/6;
+    grid-row:2/1 ;
+    order: 4;
+}
+.gridstecnicas p {
+    font-size: 16px;
+    order: 2;
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.container-tecnicas1{
+    
+    width: 90%;
+    margin: auto;
+    margin-top: 200pX;
+
+}
+.container-tecnicas1 p  {
+    font-size: 16px;
+    padding: 10px;
+}
+ .container-tecnicas1 h4 {
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: underline;
+}
+.container-tecnicas1 ul li {
+    font-size: 16PX;
+
+}
+/* -------------------------------------------------- */
+
+.gridsequipamiento img {
+
+    width: 100%;
+    height: 700px;
+
+}
+.gridsequipamiento h1 {
+    font-size:30PX;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+
+}
+.gridsequipamiento p {
+    grid-column:2/4;
+    grid-row:3/4 ;
+    order:2 ;
+    text-align:center;
+}
+
+.equipamiento h2{
+    text-align:center ;
+    font-size: 30px;
+}
+.equipamiento p {
+    font-size: 16px;
+    text-align:center ;
+}
+.container-canas{
+    margin: 150px auto;
+    width: 90%;
+}
+.container-canas img {
+    max-width: 500px;
+    height:400px ;
+    float: right;
+    border: 3px solid #ffff;
+    margin-left: 15PX;
+
+}
+.container-carretes {
+    margin: 150px auto;
+    width: 90%;
+}
+.container-carretes img {
+    max-width: 400px;
+    height:300px ;
+    float: left;
+    border: 3px solid #ffff;
+    margin-right: 15PX;
+   }
+   .container-lineas{
+    margin: 150px auto;
+    width: 90%;
+}
+.container-lineas img {
+    max-width: 400px;
+    height:300px ;
+    float: right;
+    border: 3px solid #ffff;
+    margin-left: 15PX;
+
+}
+
+.container-cebos {
+    margin: 150px auto;
+    width: 90%;
+}
+.container-cebos img {
+    max-width: 400px;
+    height:300px ;
+    float: left;
+    border: 3px solid #ffff;
+    margin-right: 15PX;
+   }
+   .container-accesorios{
+    margin: 150px auto;
+    margin-top: 100px;
+    width: 90%;
+}
+
+.container-accesorios img {
+    max-width: 400px;
+    height:300px ;
+    float: right;
+    border: 3px solid #ffff;
+    margin-left: 15PX;
+
+}
+/* -------------------------------------------------- */
+.gridslugares {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px 60px;
+}
+.gridslugares img {
+    object-fit: contain;
+    width: 80%;
+    height: 600px;
+    grid-column: 1/6;
+    grid-row: 1/4;
+}
+.gridslugares h1 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.lugares-recomendados h2 {
+    text-align: center;
+    font-size: 28px;
+
+}
+.lugares-recomendados p{
+    font-size: 16PX;
+    text-align: center;
+}
+.parana{
+    margin: 150px auto;
+    width: 90%;
+}
+.parana iframe{
+    max-width: 500px;
+    height:400px ;
+    float: right;
+    border: 3px solid #ffff;
+    margin-left: 15PX;
+}
+.rioplata {
+    margin: 150px auto;
+    width: 90%;
+}
+.rioplata iframe{
+    max-width: 400px;
+    height:300px ;
+    float: left;
+    border: 3px solid #ffff;
+    margin-right: 15PX;
+}
+.patagonia{
+    margin: 150px auto;
+    width: 90%;
+}
+.patagonia iframe {
+    max-width: 500px;
+    height:400px ;
+    float: right;
+    border: 3px solid #ffff;
+    margin-left: 15PX;
+}
+ .rio-uruguay{
+    margin: 150px auto;
+    width: %;
+}
+.rio-uruguay iframe{
+    max-width: 400px;
+    height:300px ;
+    float: left;
+    border: 3px solid #ffff;
+    margin-right: 15PX;
+}
+
+.ibera {
+    margin: 150px auto;
+    width: 90%;
+}
+.ibera iframe{
+    max-width: 500px;
+    height:300px ;
+    float: right;
+    border: 3px solid #ffff;
+    margin-left: 15PX;
+} 
+.gridsconsejos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 200px 200px 300px;
+}
+.gridsconsejos img{
+    width: 100%;
+    order: 1;
+    grid-column: 1/6 ;
+    grid-row:1/4 ;
+}
+.gridsconsejos h1{
+    order: 4;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.consj1{
+    margin-top: 240PX;
+}
+.consj1 h2{
+    font-size: 30px;
+    text-align: center;
+    
+}
+.consj1 p{
+    font-size: 16px;
+    text-align: center;
+}
+.entornogrids{
+    padding: ;
+    display: grid;
+    grid-template-columns: 1FR 1FR 1FR 1FR 1FR;
+    grid-template-rows: repeat(3,200px);
+}
+.entornogrids h3{
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    padding: px;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.entornogrids p{
+    display: flex;
+    justify-content: center;
+    align-items:TOP;
+    padding-left:  15PX; ;
+    order: 2;
+    grid-column: 1/3;
+    grid-row: 2/4;
+}
+.entornogrids img {
+    width: 400px;
+    height: 600px;
+    order: 1;
+    grid-column: 4/6;
+    grid-row: 1/4;
+}
+.equipogrids {
+    display: grid;
+    grid-template-columns: 1FR 1FR 1FR 1FR 1FR;
+    grid-template-rows: repeat(4,150px);
+}
+.equipogrids img {
+    width: 550px;
+    height: 400px;
+    margin-left: 20px;
+    grid-column: 1/3;
+    grid-row: 2/4;
+}
+.equipogrids h3{
+    text-align: center ;
+    grid-column: 3/5;
+    grid-row: 1/2;
+
+}
+.equipogrids p {
+    margin: 20px;
+    grid-column: 3/6;
+    grid-row: 2/5;
+}
+.ceboylanzado{
+    text-align: center;
+}
+.gridsagua{
+    display: grid;
+    grid-template-columns: 1fr 1fr 50PX 1fr 1fr 1fr;
+    grid-template-rows: 100px repeat(3,200pX);
+}
+.gridsagua img{
+    width: px;
+    margin: 20px;
+    height: 680px;
+    grid-column: 1/3;
+    grid-row: 1/4;
+}
+.gridsagua h3{
+    grid-column: 4/6;
+}
+.gridsagua p{
+    grid-column: 4/7;
+    grid-row: 2/4;
+}
+.csj3{
+    text-align: center;
+}
+.gridsambiente {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 200px 70px ;
+}
+.gridsambiente img{
+    order: 1;
+    margin: 20px;
+    grid-column: 1/3;
+    grid-row: 2/5;
+    width: 400px;
+    height: 500px;
+}
+.gridsambiente h3{
+    grid-column: 3/6;
+}
+.gridsambiente P{
+    grid-column: 3/6;
+}
+.text-aprender{
+    grid-row: 4/5;
+}
+.aprender{
+    grid-row: 3/4;
+}
+h4{
+    font-size: 26px;
+}
+@media (max-width:425px){
+    .gridsequipamiento {
+        height:500px;
+        width: 1;
+    }
+    .gridsequipamiento img{
+        width: 100%;
+        height: 500px;
+        object-fit: contain;
+    }
+    .equipamiento h2 {
+        font-size: 20px;
+    }
+    .equipamiento p{
+        font-size: 13px;
+    }
+    .container-canas  {
+        margin: 0;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-content: center;
+
+    }
+    .container-canas h3{
+        font-size: 20px;
+    }
+    .container-canas ul li {
+        font-size: 13px;
+    }
+    .container-carretes {
+        margin: 0;
+        display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-content: center;
+    }
+    .container-carretes img {
+        max-width: 350px;
+        margin: none;
+        border: none;
+    }
+    .container-carretes h3{
+        font-size: 20px;
+    }
+    .container-carretes ul li {
+        font-size: 13px;
+    }
+    .container-lineas{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+         align-content: center;
+    }
+    .container-lineas img{
+        margin: none;
+        border: none;
+        max-width: 350px;
+    }
+    .container-lineas h3{
+        font-size: 20px;
+    }
+    .container-lineas ul li {
+        font-size: 13px;
+    }
+    .container-cebos{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+         align-content: center;
+    }
+    .container-cebos img{
+        margin: none;
+        border: none;
+        max-width: 350px;
+    }
+    .container-cebos h3{
+        font-size: 20px;
+    }
+    .container-cebos ul li {
+        font-size: 13px;
+}
+    .container-accesorios {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+         align-content: center;
+    }
+    .container-accesorios img{
+        margin: none;
+        border: none;
+        max-width: 350px;
+    }
+    .container-accesorios h3{
+        font-size: 20px;
+    }
+    .container-accesorios ul li {
+        font-size: 13px;
+}
+    footer{
+        background-color: grey;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+
+    }
+}
+@media (max-width:670px){
+    .gridsequipamiento img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .equipamiento h2 {
+        font-size: 20px;
+    }
+    .equipamiento p{
+        font-size: 13px;
+    }
+    .container-canas  {
+        margin: 0;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+
+    }
+    .container-canas h3{
+        font-size: 20px;
+        margin: 40px;
+    }
+    .container-canas ul li {
+        font-size: 13px;
+    }
+    .container-carretes {
+        margin: 0;
+        display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+    }
+    .container-carretes img {
+        max-width: 350px;
+        margin: none;
+        border: none;
+    }
+    .container-carretes h3{
+        font-size: 20px;
+        margin: 40px;
+    }
+    .container-carretes ul li {
+        font-size: 13px;
+    }
+    .container-lineas{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container-lineas img{
+        margin: none;
+        border: none;
+        max-width: 350px;
+    }
+    .container-lineas h3{
+        font-size: 20px;
+    }
+    .container-lineas ul li {
+        font-size: 13px;
+    }
+    .container-cebos{
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .container-cebos img{
+        margin: none;
+        border: none;
+        max-width: 350px;
+    }
+    .container-cebos h3{
+        font-size: 20px;
+    }
+    .container-cebos ul li {
+        font-size: 13px;
+}
+    .container-accesorios {
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .container-accesorios img{
+        margin: none;
+        border: none;
+        max-width: 350px;
+    }
+    .container-accesorios h3{
+        font-size: 20px;
+    }
+    .container-accesorios ul li {
+        font-size: 13px;
+        
+}
+    footer{
+        height: 200px;
+    }
+
+}
+@media (max-width:890px){
+    .gridsequipamiento img{
+        width: 100%;
+        height: 500px;
+    }
+}
+@media (max-width:360px){
+    footer{
+        width: auto;
+        font-size: 10px;
+        height: 310px;
+    }
+}
