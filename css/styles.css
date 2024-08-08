@@ -130,7 +130,7 @@ h3{
     gap:50px ;
     align-content: center;
     justify-content: center;
-}
+} 
 /* TITULO DE LA BARRA DE NAVEGACION */
 .titulo{
     color: gold;
@@ -205,6 +205,7 @@ footer P {
     font-size: 16px;
 }
 footer{
+    width: 100%;
     margin-top: 20PX;
 }
 /* -------------------------------------------------- */
@@ -377,12 +378,7 @@ footer{
 }
 /* -------------------------------------------------- */
 
-.gridsequipamiento img {
 
-    width: 100%;
-    height: 700px;
-
-}
 .gridsequipamiento h1 {
     font-size:30PX;
     color: black;
@@ -467,21 +463,15 @@ footer{
 
 }
 /* -------------------------------------------------- */
-.gridslugares {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 200px 200px 200px 60px;
-}
+
 .gridslugares img {
-    object-fit: contain;
-    width: 80%;
-    height: 600px;
-    grid-column: 1/6;
-    grid-row: 1/4;
+
+    width: 100%;
+    height: 100%;
 }
 .gridslugares h1 {
-    grid-column: 1/3;
-    grid-row: 1/2;
+    text-align: center;
+    text-decoration: underline;
 }
 
 .lugares-recomendados h2 {
@@ -497,9 +487,9 @@ footer{
     margin: 150px auto;
     width: 90%;
 }
-.parana iframe{
-    max-width: 500px;
-    height:400px ;
+.parana img{
+    max-width: 400px;
+    height:300px ;
     float: right;
     border: 3px solid #ffff;
     margin-left: 15PX;
@@ -508,7 +498,7 @@ footer{
     margin: 150px auto;
     width: 90%;
 }
-.rioplata iframe{
+.rioplata img{
     max-width: 400px;
     height:300px ;
     float: left;
@@ -519,9 +509,9 @@ footer{
     margin: 150px auto;
     width: 90%;
 }
-.patagonia iframe {
-    max-width: 500px;
-    height:400px ;
+.patagonia img {
+    max-width: 400px;
+    height:300px ;
     float: right;
     border: 3px solid #ffff;
     margin-left: 15PX;
@@ -530,7 +520,7 @@ footer{
     margin: 150px auto;
     width: %;
 }
-.rio-uruguay iframe{
+.rio-uruguay img{
     max-width: 400px;
     height:300px ;
     float: left;
@@ -542,8 +532,8 @@ footer{
     margin: 150px auto;
     width: 90%;
 }
-.ibera iframe{
-    max-width: 500px;
+.ibera img{
+    max-width: 400px;
     height:300px ;
     float: right;
     border: 3px solid #ffff;
@@ -684,6 +674,13 @@ h4{
     font-size: 26px;
 }
 @media (max-width:425px){
+    .navbar-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
     .gridsequipamiento {
         height:500px;
         width: 1;
@@ -791,10 +788,11 @@ h4{
         display: flex;
         flex-direction: column;
         font-size: 13px;
-
+        
     }
 }
 @media (max-width:670px){
+    
     .gridsequipamiento img{
         width: 100%;
         height: 100%;
@@ -907,9 +905,163 @@ h4{
     }
 }
 @media (max-width:360px){
+    .navbar-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
     footer{
         width: auto;
         font-size: 10px;
         height: 310px;
     }
+}
+/* RESPONSIVE LUGARES DE PESCA*/
+@media (max-width:768px){
+    .gridsequipamiento img {
+        width: 100%;
+    }
+    .lugares-recomendados{
+        text-align: center;
+        width: 90%;
+    }
+    .parana{
+        width: 90%;
+    }
+    .rioplata {
+        width: 90%;
+    }
+    .rio-uruguay{
+        width: 90%;
+    }
+    .ibera{
+        width: 90%;
+    }
+    footer{
+        width: 100%;
+    };
+
+        
+    }
+}
+@media (max-width:425px){
+    .lugares-img{
+        height: 350px;
+        object-fit: contain;
+
+
+    }
+    .parana {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+         align-content: center;
+        flex-wrap: wrap;
+    }
+    .parana h3{
+        float: none;
+        text-align: center;
+
+        
+
+    }
+    .parana img {
+        width:400px;
+
+    }
+    .rio-uruguay{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+         align-content: center;
+    }
+    .rio-uruguay img{
+        margin: 10px;
+        margin-bottom: 20px;
+        width: 500px;
+    }
+    .ibera{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+         align-content: center;
+    }
+    .ibera img {
+        float: none;
+        width: 320px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .rioplata{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+         align-content: center;
+    }
+    .rioplata img{
+        width: 320px;
+        float: none;
+        margin-right: 60PX;
+    }
+    .patagonia img {
+        width: 400px;
+        height: 200px;
+        float: none;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .patagonia h3{
+        display: none;
+        margin-top: 20PX;
+    }
+    footer{
+        background-color: gray;
+        height: 100%px;
+        width: 100%px;
+    }
+    .container-img{
+        width: 400px;
+    }
+}
+@media (max-width:375px){
+    }
+    footer{
+        height: 300px;
+        width: 330PX;
+    }
+
+}
+@media (max-width:375px){
+    .gridsequipamiento img {
+        height: 350px;
+    }
+    .parana {
+        margin: auto;
+    }
+    .parana img{
+        width: 300px;
+        height: 300px;
+        margin: auto;
+    }
+    .patagonia img{
+        width: 300px;
+        height: 300px;
+    }
+    .rio-uruguay img {
+        width: 300px;
+        height: 300px;
+    }
+}
+@media (max-width:720px){
+    footer{
+        width: 90%;
+    }
+}
+footer{
+    width: 100%;
 }
