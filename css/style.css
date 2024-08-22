@@ -240,10 +240,21 @@ footer {
   footer {
     background-color: gray;
     height: 100% px;
-    width: 100% px;
+    width: 94%;
   }
   .container-img {
     width: 400px;
+  }
+  .img-principal {
+    width: 100%;
+  }
+  .img-principal img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  .h1-tienda {
+    font-size: 23px;
   }
 }
 .img-mia-1 {
@@ -743,6 +754,12 @@ textarea {
   margin-left: 15PX;
 }
 
+.h1-tienda {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
 .container-card {
   width: 15.625rem;
   height: 18.75rem;
@@ -763,7 +780,78 @@ textarea {
 }
 
 .container-productos {
+  margin: 40px;
   display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.img-principal {
+  width: 100%;
+  height: auto;
+}
+
+.tecnicas-pesca img {
+  width: 100%;
+  height: 100%;
+}
+.tecnicas-pesca h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+.tecnicas-pesca p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.container-tecnicas1 {
+  width: 90%;
+  margin: auto;
+  margin-top: 200pX;
+}
+.container-tecnicas1 p {
+  font-size: 16px;
+  padding: 10px;
+}
+.container-tecnicas1 h4 {
+  font-size: 18px;
+  font-weight: 300;
+  text-decoration: underline;
+}
+.container-tecnicas1 ul li {
+  font-size: 16PX;
+}
+
+.tecnicas {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 700;
+  color: black;
+  text-decoration: underline;
+}
+
+.definicion {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  color: black;
+}
+
+.container-tecnicas {
+  margin: auto;
+  width: 90%;
+}
+.container-tecnicas p {
+  font-size: 16px;
+  padding: 10px;
+}
+.container-tecnicas h4 {
+  font-size: 18px;
+  font-weight: 300;
+  text-decoration: underline;
+}
+.container-tecnicas li {
+  font-size: 16PX;
 }
 
 /*# sourceMappingURL=style.css.map */
