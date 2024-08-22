@@ -1,0 +1,21 @@
+.navbar-items{
+    display: flex;
+    gap:50px ;
+    align-content: center;
+    justify-content: center;
+    ul{
+        width: 100%;
+    }
+    ul li {
+        list-style: none;
+        text-decoration: none;
+    }
+    ul li a{
+        text-decoration: none;
+        color: black;
+    }
+} 
+.titulo{
+    color: gold;
+    font-weight: 800;
+}

@@ -1,0 +1,13 @@
+@media (max-width:360px){
+    .navbar-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;}
+    footer{
+        width: auto;
+        font-size: 10px;
+        height: 310px;
+    }
+}

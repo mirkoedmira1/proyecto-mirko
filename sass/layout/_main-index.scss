@@ -1,0 +1,133 @@
+.container-hook {
+    margin-top: 25px;
+    display: column;
+    align-content: center;
+    width: 100%;
+	.img-hook{
+		width: 100%;
+		height: 700px;
+	}
+}
+.text-h1{
+    position: absolute;
+    top: 0px; /* Ajusta según sea necesario */
+    left: 40px;
+    transform: translateX(-50%);
+	.offthehook{
+		position: absolute;
+		left: 100px;
+		right: 100px;
+		bottom: 100px;
+		font-weight: 300;}
+}
+.h2s-page1{
+    line-height: 2.3rem;
+}
+//GRIDS//
+.gridsfish{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 250px);
+    img{
+        object-fit: contain;
+        grid-column: 2/6;
+        grid-row: 1/2;
+        order: 1;
+    }
+    h2{
+        font-size: 25px;
+        grid-column: 2/3;
+        grid-row: 1/2;
+        order: 4;
+        padding: 12PX;
+        padding-bottom: 16px;
+    }
+    p{
+        font-size: 16px;
+        grid-column: 2/3;
+        grid-row: 1/2;
+        order: 2;
+        align-content:  end;
+        padding: 10PX;
+        background-color: #ffff;
+    }
+}
+.gridsblog{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 250px);
+    img{
+        width: 100%;
+        object-fit: contain;
+        grid-column:1/6 ;
+        grid-row: 1/3;
+        order: 1;
+    }
+    h2{
+        font-size: 25px;
+        order: 4;
+        grid-column:4/5;
+        grid-row: 1/2;
+        padding: 10PX;
+        padding-bottom: 16px;
+    }
+    p{
+        font-size: 16px;
+        order: 2;
+        grid-column:4/5 ;
+        grid-row: 1/2;
+        align-content:  end;
+        background-color: #ffff;
+        padding: 10PX;
+    }
+}
+.gridscontacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:130px 300px 160PX;
+    img{
+        grid-column: 2/5;
+        grid-row: 2/3;
+        order: 1;
+    }
+    h2{
+        font-size: 25px;
+        order: 4;
+        grid-column: 2/3;
+        grid-row: 2/3;
+        padding: 10px;
+    
+    }
+    p{
+        font-size: 16px;
+        order: 2;
+        grid-column: 2/3;
+        grid-row: 2/3;
+        align-content: end;
+        padding: 10px;
+        background-color: #ffff;
+    }
+}
+//FORMULARIO//
+form {
+    width: 700px;
+    text-align: center;
+    margin: auto;
+}
+legend{
+    font-size: 25PX;
+    font-weight: 600;
+}
+.fullname {
+    margin: 30px;
+    text-decoration: none;
+    border: none;
+}
+input{
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+textarea{
+    margin-top: 20PX;
+}

@@ -1,0 +1,10 @@
+footer{
+    margin-top: 100px;
+    padding: 15px;
+    height: 150px;
+    width: 98%;
+    background-color: rgb(104, 103, 103);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: repeat(3, 1fr 1fr 1fr);
+}

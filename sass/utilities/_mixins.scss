@@ -1,0 +1,10 @@
+@mixin navbar {
+    display: flex;
+    gap:50px ;
+    align-content: center;
+    justify-content: center;
+}
+@mixin subtitle {
+    font-size: 23px ;
+    text-decoration: underline;
+}

@@ -1,0 +1,55 @@
+// Variables //
+$color-fuente: black;
+$color-fondo: #ffff ;
+$fuente: Montserrat;
+body{
+    font-family: Montserrat;
+    background-color: #ffff;
+    font-size: 1rem;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+@import "./layout/header";
+@import "./layout/footer";
+
+///////
+@import "./base/fuentes";
+@import "./base/reset";
+
+
+
+@import "./layout/medias/media425";
+@import "./components/classimgs";
+
+//  MAINS //
+@import "./layout/main-consejos";
+@import "./layout/main-index";
+@import "./layout/main-lugares";
+@import "./layout/main-equipamiento";
+@import "./layout/main-tienda";
+;
+
+
+@import "./utilities/mixins"
+
+
+
+
+
+
+
+
+
+

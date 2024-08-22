@@ -1,0 +1,86 @@
+.equipamiento-pag2 {
+    h1{
+    font-size:30PX;
+    color: black;
+    text-align: center;
+    text-decoration: underline;}
+    img{
+        width: 100%;}
+
+    p {
+            grid-column:2/4;
+            grid-row:3/4 ;
+            order:2 ;
+            text-align:center;
+        }
+
+    }     
+.equipamiento{
+    h2{
+        text-align:center ;
+        font-size: 30px;
+    }
+    p {
+        font-size: 16px;
+        text-align:center ;
+    }
+}
+.container-canas{
+    margin: 150px auto;
+    width: 90%;
+    img {
+        max-width: 500px;
+        height:400px ;
+        float: right;
+        border: 3px solid #ffff;
+        margin-left: 15PX;
+    
+    }
+}
+.container-carretes {
+    margin: 150px auto;
+    width: 90%;
+    img {
+        max-width: 400px;
+        height:300px ;
+        float: left;
+        border: 3px solid #ffff;
+        margin-right: 15PX;
+    }
+}
+.container-lineas{
+    margin: 150px auto;
+    width: 90%;
+    img {
+        max-width: 400px;
+        height:300px ;
+        float: right;
+        border: 3px solid #ffff;
+        margin-left: 15PX;
+    }
+
+}
+.container-cebos {
+    margin: 150px auto;
+    width: 90%;
+    img {
+        max-width: 400px;
+        height:300px ;
+        float: left;
+        border: 3px solid #ffff;
+        margin-right: 15PX;
+    }
+}
+.container-accesorios{
+    margin: 150px auto;
+    margin-top: 100px;
+    width: 90%;
+    img {
+        max-width: 400px;
+        height:300px ;
+        float: right;
+        border: 3px solid #ffff;
+        margin-left: 15PX;
+    
+    }
+}
