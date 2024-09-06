@@ -45,14 +45,45 @@ li {
 footer {
   margin-top: 100px;
   padding: 15px;
-  height: 150px;
-  width: 98%;
+  height: 220px;
+  width: 95%;
   background-color: rgb(104, 103, 103);
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(3, 1fr 1fr 1fr);
 }
 
+@media (max-width: 360px) {
+  .navbar-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+}
+@media (max-width: 375px) {
+  .gridsequipamiento img {
+    height: 350px;
+  }
+  .parana {
+    margin: auto;
+  }
+  .parana img {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+  }
+  .patagonia img {
+    width: 300px;
+    height: 300px;
+  }
+  .rio-uruguay img {
+    width: 300px;
+    height: 300px;
+  }
+  .img-pescadorbarco {
+    width: 300px;
+    height: auto;
+  }
+}
 @media (max-width: 425px) {
   .navbar-items {
     display: flex;
@@ -163,13 +194,12 @@ footer {
   }
   footer {
     background-color: grey;
-    height: 300px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     font-size: 13px;
+    width: 90%;
   }
-}
-@media (max-width: 425px) {
   .lugares-img {
     height: 350px;
     object-fit: contain;
@@ -237,11 +267,6 @@ footer {
     display: none;
     margin-top: 20PX;
   }
-  footer {
-    background-color: gray;
-    height: 100% px;
-    width: 94%;
-  }
   .container-img {
     width: 400px;
   }
@@ -255,6 +280,187 @@ footer {
   }
   .h1-tienda {
     font-size: 23px;
+  }
+  .container-hook img {
+    width: 100%;
+    height: auto;
+  }
+  .gridfish {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px 250px;
+  }
+  .entornogrids, .equipogrids, .gridsagua, .gridsambiente {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 425px) {
+  .gridsfish {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .gridscontacto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .gridscontacto .container2letras {
+    margin: auto;
+    margin-left: 0;
+  }
+}
+@media (max-width: 670px) {
+  .gridsequipamiento img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .equipamiento h2 {
+    font-size: 20px;
+  }
+  .equipamiento p {
+    font-size: 13px;
+  }
+  .container-canas {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .container-canas h3 {
+    font-size: 20px;
+    margin: 40px;
+  }
+  .container-canas ul li {
+    font-size: 13px;
+  }
+  .container-carretes {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .container-carretes img {
+    max-width: 350px;
+    margin: none;
+    border: none;
+  }
+  .container-carretes h3 {
+    font-size: 20px;
+    margin: 40px;
+  }
+  .container-carretes ul li {
+    font-size: 13px;
+  }
+  .container-lineas {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .container-lineas img {
+    margin: none;
+    border: none;
+    max-width: 350px;
+  }
+  .container-lineas h3 {
+    font-size: 20px;
+  }
+  .container-lineas ul li {
+    font-size: 13px;
+  }
+  .container-cebos {
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-cebos img {
+    margin: none;
+    border: none;
+    max-width: 350px;
+  }
+  .container-cebos h3 {
+    font-size: 20px;
+  }
+  .container-cebos ul li {
+    font-size: 13px;
+  }
+  .container-accesorios {
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-accesorios img {
+    margin: none;
+    border: none;
+    max-width: 350px;
+  }
+  .container-accesorios h3 {
+    font-size: 20px;
+  }
+  .container-accesorios ul li {
+    font-size: 13px;
+  }
+}
+.img-mia-1 {
+  height: 150px;
+  width: 150px;
+}
+
+.carretemio {
+  height: 150px;
+  width: 150px;
+}
+
+.senuelomio {
+  height: 150px;
+  width: 150PX;
+}
+
+@media (max-width: 768px) {
+  .gridsequipamiento img {
+    width: 100%;
+  }
+  .lugares-recomendados {
+    text-align: center;
+    width: 90%;
+  }
+  .parana {
+    width: 90%;
+  }
+  .rioplata {
+    width: 90%;
+  }
+  .rio-uruguay {
+    width: 90%;
+  }
+  .ibera {
+    width: 90%;
+  }
+  .img-principal {
+    width: 760px;
+  }
+  .img-principal img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+  }
+}
+@media (max-width: 890px) {
+  .gridsequipamiento img {
+    width: 100%;
+    height: 500px;
   }
 }
 .img-mia-1 {
@@ -322,62 +528,56 @@ footer {
 }
 
 .entornogrids {
-  display: grid;
-  grid-template-columns: 1FR 100px 1FR 1FR 1FR 1FR;
-  grid-template-rows: repeat(2, 200px) 60px;
-  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: auto;
 }
-.entornogrids h3 {
+.entornogrids .container1 {
+  width: 400px;
+  margin: auto;
+  margin-top: 20px;
+}
+.entornogrids .container1 h3 {
   font-size: 23px;
   display: flex;
-  justify-content: center;
-  align-items: end;
+  text-align: center;
   padding: px;
-  grid-column: 2/4;
-  grid-row: 1/2;
   text-decoration: underline;
 }
-.entornogrids p {
+.entornogrids .container1 p {
   font-size: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: TOP;
-  padding-left: 15PX;
-  order: 2;
-  grid-column: 2/4;
-  grid-row: 2/4;
   text-align: center;
 }
-.entornogrids img {
-  width: 400px;
-  height: 600px;
-  order: 1;
-  grid-column: 4/6;
-  grid-row: 1/4;
-  margin-left: 60px;
-  height: 450px;
+.entornogrids .container1 img {
+  width: 100%;
+  height: 370px;
+  object-fit: contain;
 }
 
 .equipogrids {
-  display: grid;
-  grid-template-columns: 1FR 1FR 1FR 1FR 1FR;
-  grid-template-rows: 50px 50px repeat(2, 150px) 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: auto;
 }
-.equipogrids img {
-  width: 550px;
-  height: 400px;
-  margin-left: 100px;
-  grid-column: 1/3;
-  grid-row: 1/4;
+.equipogrids .container1 {
+  width: 400px;
+  margin: auto;
+  margin-top: 20px;
 }
-.equipogrids h3 {
+.equipogrids .container1 img {
+  width: 100%;
+  height: 300px;
+}
+.equipogrids .container1 h3 {
   font-size: 23px;
   text-align: center;
   grid-column: 3/5;
   grid-row: 2/3;
   text-decoration: underline;
 }
-.equipogrids p {
+.equipogrids .container1 p {
   font-size: 16px;
   margin: 20px;
   grid-column: 3/5;
@@ -386,67 +586,65 @@ footer {
 }
 
 .gridsagua {
-  margin-top: 50px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 50PX 1fr 1fr 1fr;
-  grid-template-rows: 50px 150px 50px 200px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: auto;
 }
-.gridsagua img {
+.gridsagua .container1 {
   width: 400px;
-  margin: 20px;
-  margin-left: 100px;
-  height: 450px;
-  grid-column: 1/3;
-  grid-row: 1/4;
+  margin: auto;
+  margin-top: 20px;
 }
-.gridsagua h3 {
-  grid-column: 4/6;
+.gridsagua .container1 img {
+  width: 400px;
+  height: 380px;
+}
+.gridsagua .container1 h3 {
   text-align: center;
   font-size: 23px;
   text-decoration: underline;
 }
-.gridsagua p {
+.gridsagua .container1 p {
   grid-column: 4/6;
   grid-row: 2/4;
   text-align: center;
 }
-.gridsagua .h3-agua {
+.gridsagua .container1 .h3-agua {
   grid-column: 4/6;
   grid-row: 3/4;
 }
-.gridsagua .p-agua {
+.gridsagua .container1 .p-agua {
   grid-column: 4/6;
   grid-row: 4/5;
 }
 
 .gridsambiente {
-  margin-top: 50px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 50px 180px 50px;
-}
-.gridsambiente img {
-  order: 1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   margin: 20px;
-  margin-left: 100px;
-  grid-column: 1/3;
-  grid-row: 1/5;
-  width: 400px;
-  height: 500px;
+  margin: auto;
 }
-.gridsambiente h3 {
+.gridsambiente .container1 {
+  width: 400px;
+  margin: auto;
+  margin-top: 20px;
+}
+.gridsambiente .container1 img {
+  width: 350px;
+  height: 380px;
+}
+.gridsambiente .container1 h3 {
   font-size: 23px;
   grid-column: 3/5;
   text-align: center;
   text-decoration: underline;
 }
-.gridsambiente P {
+.gridsambiente .container1 P {
   font-size: 16px;
   grid-column: 3/5;
   text-align: center;
-}
-.gridsambiente .aprender {
-  grid-row: 3/4;
 }
 
 .container-hook {
@@ -457,7 +655,6 @@ footer {
 }
 .container-hook .img-hook {
   width: 100%;
-  height: 700px;
 }
 
 .text-h1 {
@@ -479,47 +676,47 @@ footer {
 }
 
 .gridsfish {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: repeat(2, 250px);
+  margin-top: 20px;
+  display: flex;
 }
-.gridsfish img {
-  object-fit: contain;
-  grid-column: 2/6;
-  grid-row: 1/2;
-  order: 1;
+.gridsfish .container2letras {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  width: 300px;
+  height: 300px;
 }
-.gridsfish h2 {
-  font-size: 25px;
-  grid-column: 2/3;
-  grid-row: 1/2;
-  order: 4;
-  padding: 12PX;
-  padding-bottom: 16px;
+.gridsfish .container2letras h2 {
+  font-size: 26px;
 }
-.gridsfish p {
+.gridsfish .container2letras p {
   font-size: 16px;
-  grid-column: 2/3;
-  grid-row: 1/2;
-  order: 2;
-  align-content: end;
-  padding: 10PX;
-  background-color: white;
+}
+.gridsfish .container2 {
+  justify-content: left;
+  align-items: end;
+}
+.gridsfish .container2 img {
+  width: 400px;
 }
 
-.gridsblog {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: repeat(2, 250px);
+.gridsblog .h2blog h2 {
+  text-align: center;
+  text-decoration: underline;
 }
-.gridsblog img {
+.gridsblog .h2blog p {
+  text-align: center;
+}
+
+img {
   width: 100%;
   object-fit: contain;
   grid-column: 1/6;
   grid-row: 1/3;
   order: 1;
 }
-.gridsblog h2 {
+
+h2 {
   font-size: 25px;
   order: 4;
   grid-column: 4/5;
@@ -527,46 +724,43 @@ footer {
   padding: 10PX;
   padding-bottom: 16px;
 }
-.gridsblog p {
+
+p {
   font-size: 16px;
   order: 2;
   grid-column: 4/5;
-  grid-row: 1/2;
-  align-content: end;
-  background-color: white;
-  padding: 10PX;
+  grid-row: 2/3;
 }
 
 .gridscontacto {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 130px 300px 160PX;
+  display: flex;
+  margin-top: 30px;
 }
-.gridscontacto img {
-  grid-column: 2/5;
-  grid-row: 2/3;
-  order: 1;
+.gridscontacto .container2letras {
+  text-align: center;
+  width: 400px;
+  height: 300px;
 }
-.gridscontacto h2 {
-  font-size: 25px;
-  order: 4;
-  grid-column: 2/3;
-  grid-row: 2/3;
-  padding: 10px;
+.gridscontacto .container2letras h2 {
+  font-size: 26px;
 }
-.gridscontacto p {
+.gridscontacto .container2letras p {
   font-size: 16px;
-  order: 2;
-  grid-column: 2/3;
-  grid-row: 2/3;
-  align-content: end;
-  padding: 10px;
-  background-color: white;
+}
+.gridscontacto .container2 {
+  justify-content: left;
+  align-items: end;
+}
+.gridscontacto .container2 img {
+  width: 400px;
 }
 
 form {
-  width: 700px;
-  text-align: center;
+  width: 100%;
+}
+
+fieldset {
+  width: 100%;
   margin: auto;
 }
 
@@ -814,7 +1008,6 @@ textarea {
 .container-tecnicas1 {
   width: 90%;
   margin: auto;
-  margin-top: 200pX;
 }
 .container-tecnicas1 p {
   font-size: 16px;

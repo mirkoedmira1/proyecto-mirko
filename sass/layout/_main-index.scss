@@ -5,7 +5,6 @@
     width: 100%;
 	.img-hook{
 		width: 100%;
-		height: 700px;
 	}
 }
 .text-h1{
@@ -25,37 +24,42 @@
 }
 //GRIDS//
 .gridsfish{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(2, 250px);
-    img{
-        object-fit: contain;
-        grid-column: 2/6;
-        grid-row: 1/2;
-        order: 1;
+    margin-top: 20px;
+    display: flex;
+    .container2letras{
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: center;
+        width: 300px;
+        height: 300px;
+        h2{
+            font-size: 26px;
+        }
+        p{
+            font-size: 16px;
+        }
+        
     }
-    h2{
-        font-size: 25px;
-        grid-column: 2/3;
-        grid-row: 1/2;
-        order: 4;
-        padding: 12PX;
-        padding-bottom: 16px;
-    }
-    p{
-        font-size: 16px;
-        grid-column: 2/3;
-        grid-row: 1/2;
-        order: 2;
-        align-content:  end;
-        padding: 10PX;
-        background-color: #ffff;
-    }
+    .container2{
+        justify-content: left;
+        align-items: end;
+        img{
+            width: 400px;
+        }
+        
+}
 }
 .gridsblog{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(2, 250px);
+    .h2blog{
+        h2{
+        text-align: center;
+        text-decoration: underline;
+        }
+        p{
+            text-align: center;
+        }
+    }
+    }
     img{
         width: 100%;
         object-fit: contain;
@@ -75,43 +79,42 @@
         font-size: 16px;
         order: 2;
         grid-column:4/5 ;
-        grid-row: 1/2;
-        align-content:  end;
-        background-color: #ffff;
-        padding: 10PX;
+        grid-row: 2/3;
+
+
     }
-}
+
+
 .gridscontacto{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows:130px 300px 160PX;
-    img{
-        grid-column: 2/5;
-        grid-row: 2/3;
-        order: 1;
+    display: flex;
+    margin-top: 30px;
+    .container2letras{
+        text-align: center;
+        width: 400px;
+        height: 300px;
+        h2{
+            font-size: 26px;
+        }
+        p{
+            font-size: 16px;
+        }
+        
     }
-    h2{
-        font-size: 25px;
-        order: 4;
-        grid-column: 2/3;
-        grid-row: 2/3;
-        padding: 10px;
-    
-    }
-    p{
-        font-size: 16px;
-        order: 2;
-        grid-column: 2/3;
-        grid-row: 2/3;
-        align-content: end;
-        padding: 10px;
-        background-color: #ffff;
-    }
+    .container2{
+        justify-content: left;
+        align-items: end;
+        img{
+            width: 400px;
+        }
+        
+}
 }
 //FORMULARIO//
 form {
-    width: 700px;
-    text-align: center;
+    width: 100%;
+}
+fieldset{
+    width: 100%;
     margin: auto;
 }
 legend{
