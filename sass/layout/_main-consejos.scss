@@ -81,6 +81,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     margin: auto;
+    justify-content: center;
     .container1{
         width: 400px;
         margin: auto;
@@ -111,13 +112,13 @@
     flex-wrap: wrap;
     flex-direction: row;
     margin: auto;
+    justify-content: center;
     .container1{
-        width: 400px;
         margin: auto;
         margin-top: 20px;
         
     img{
-        width: 400px;
+        width: 360px;
         height: 380px;
 
     }
@@ -146,14 +147,14 @@
     flex-wrap: wrap;
     flex-direction: row;
     margin: 20px;
-    margin: auto;
+    justify-content: center;
     .container1{
         width: 400px;
         margin: auto;
         margin-top: 20px;
     img{
         width: 350px;
-        height: 380px;
+        height: 320px;
     }
     h3{
         font-size: 23px;

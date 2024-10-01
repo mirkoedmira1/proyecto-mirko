@@ -50,6 +50,11 @@ footer {
   background-color: rgb(104, 103, 103);
 }
 
+.div-img img {
+  width: 80%;
+  margin: auto;
+}
+
 @media (max-width: 360px) {
   .navbar-items {
     display: flex;
@@ -198,104 +203,43 @@ footer {
     display: flex;
     flex-direction: column;
     font-size: 13px;
-    width: 90%;
-  }
-  .lugares-img {
-    height: 350px;
-    object-fit: contain;
-  }
-  .parana {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-  }
-  .parana h3 {
-    float: none;
-    text-align: center;
-  }
-  .parana img {
-    width: 400px;
-  }
-  .rio-uruguay {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-  }
-  .rio-uruguay img {
-    margin: 10px;
-    margin-bottom: 20px;
-    width: 500px;
-  }
-  .ibera {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-  }
-  .ibera img {
-    float: none;
-    width: 320px;
-    margin: auto;
-    margin-bottom: 20px;
-  }
-  .rioplata {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-  }
-  .rioplata img {
-    width: 320px;
-    float: none;
-    margin-right: 60PX;
-  }
-  .patagonia img {
-    width: 400px;
-    height: 200px;
-    float: none;
-    margin: auto;
-    margin-bottom: 50px;
-  }
-  .patagonia h3 {
-    display: none;
-    margin-top: 20PX;
-  }
-  .container-img {
-    width: 400px;
-  }
-  .img-principal {
-    width: 100%;
-  }
-  .img-principal img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-  }
-  .h1-tienda {
-    font-size: 23px;
-  }
-  .container-hook img {
-    width: 100%;
-    height: auto;
-  }
-  .gridfish {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 250px 250px 250px;
-  }
-  .entornogrids, .equipogrids, .gridsagua, .gridsambiente {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    width: auto;
   }
 }
+.container-img {
+  width: 400px;
+}
+
+.img-principal {
+  width: 100%;
+}
+.img-principal img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.h1-tienda {
+  font-size: 23px;
+}
+
+.container-hook img {
+  width: 100%;
+  height: auto;
+}
+
+.gridfish {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 250px 250px 250px;
+}
+
+.entornogrids, .equipogrids, .gridsagua, .gridsambiente {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 @media (max-width: 425px) {
   .gridsfish {
     margin-top: 20px;
@@ -560,6 +504,7 @@ footer {
   flex-wrap: wrap;
   flex-direction: row;
   margin: auto;
+  justify-content: center;
 }
 .equipogrids .container1 {
   width: 400px;
@@ -590,14 +535,14 @@ footer {
   flex-wrap: wrap;
   flex-direction: row;
   margin: auto;
+  justify-content: center;
 }
 .gridsagua .container1 {
-  width: 400px;
   margin: auto;
   margin-top: 20px;
 }
 .gridsagua .container1 img {
-  width: 400px;
+  width: 360px;
   height: 380px;
 }
 .gridsagua .container1 h3 {
@@ -624,7 +569,7 @@ footer {
   flex-wrap: wrap;
   flex-direction: row;
   margin: 20px;
-  margin: auto;
+  justify-content: center;
 }
 .gridsambiente .container1 {
   width: 400px;
@@ -633,7 +578,7 @@ footer {
 }
 .gridsambiente .container1 img {
   width: 350px;
-  height: 380px;
+  height: 320px;
 }
 .gridsambiente .container1 h3 {
   font-size: 23px;
@@ -804,62 +749,83 @@ textarea {
 }
 
 .parana {
-  margin: 150px auto;
-  width: 90%;
+  display: flex;
+  margin: 30px;
+  gap: 50PX;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.parana img {
-  max-width: 400px;
-  height: 300px;
-  float: right;
-  border: 3px solid white;
-  margin-left: 15PX;
+.parana .div-img img {
+  width: 300px;
+  margin: auto;
+}
+.parana div {
+  width: 350px;
 }
 
 .rioplata {
-  margin: 150px auto;
-  width: 90%;
+  display: flex;
+  margin: 30px;
+  gap: 50PX;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.rioplata img {
-  max-width: 400px;
-  height: 300px;
-  float: left;
-  border: 3px solid white;
-  margin-right: 15PX;
+.rioplata .div-img img {
+  width: 300px;
+  margin: auto;
+}
+.rioplata div {
+  width: 350px;
 }
 
 .patagonia {
-  margin: 150px auto;
-  width: 90%;
+  display: flex;
+  margin: 30px;
+  gap: 50PX;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.patagonia img {
-  max-width: 400px;
-  height: 300px;
-  float: right;
-  border: 3px solid white;
-  margin-left: 15PX;
+.patagonia .div-img img {
+  width: 300px;
+  margin: auto;
+}
+.patagonia div {
+  width: 350px;
 }
 
 .rio-uruguay {
-  margin: 150px auto;
+  display: flex;
+  margin: 30px;
+  gap: 50PX;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.rio-uruguay img {
-  max-width: 400px;
-  height: 300px;
-  float: left;
-  border: 3px solid white;
-  margin-right: 15PX;
+.rio-uruguay .div-img img {
+  width: 300px;
+  margin: auto;
+}
+.rio-uruguay div {
+  width: 350px;
 }
 
 .ibera {
-  margin: 150px auto;
-  width: 90%;
+  display: flex;
+  margin: 30px;
+  gap: 50PX;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.ibera img {
-  max-width: 400px;
-  height: 300px;
-  float: right;
-  border: 3px solid white;
-  margin-left: 15PX;
+.ibera .div-img img {
+  width: 300px;
+  margin: auto;
+}
+.ibera div {
+  width: 350px;
 }
 
 .equipamiento-pag2 h1 {

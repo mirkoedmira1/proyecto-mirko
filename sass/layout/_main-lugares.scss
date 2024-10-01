@@ -21,56 +21,103 @@
     }
 }
 .parana{
-    margin: 150px auto;
-    width: 90%;
-    img{
-        max-width: 400px;
-        height:300px ;
-        float: right;
-        border: 3px solid #ffff;
-        margin-left: 15PX;
+    display: flex;
+    margin: 30px;
+    gap: 50PX;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    .div-img {
+        img{
+            width: 300px;
+            margin: auto;
+        }
     }
+    div{
+        width: 350px;
+
+
+    }
+    
 }
 .rioplata {
-    margin: 150px auto;
-    width: 90%;
-    img{
-        max-width: 400px;
-        height:300px ;
-        float: left;
-        border: 3px solid #ffff;
-        margin-right: 15PX;
+    display: flex;
+    margin: 30px;
+    gap: 50PX;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    .div-img {
+        img{
+            width: 300px;
+            margin: auto;
+        }
     }
+    div{
+        width: 350px;
+
+
+    }
+    
 }
 .patagonia{
-    margin: 150px auto;
-    width: 90%;
-    img{
-        max-width: 400px;
-        height:300px ;
-        float: right;
-        border: 3px solid #ffff;
-        margin-left: 15PX;
+    display: flex;
+    margin: 30px;
+    gap: 50PX;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    .div-img {
+        img{
+            width: 300px;
+            margin: auto;
+        }
     }
+    div{
+        width: 350px;
+
+
+    }
+    
 }
 .rio-uruguay{
-    margin: 150px auto;
-    img{
-        max-width: 400px;
-        height:300px ;
-        float: left;
-        border: 3px solid #ffff;
-        margin-right: 15PX;
+    display: flex;
+    margin: 30px;
+    gap: 50PX;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    .div-img {
+        img{
+            width: 300px;
+            margin: auto;
+        }
     }
+    div{
+        width: 350px;
+
+
+    }
+    
 }
+
 .ibera {
-    margin: 150px auto;
-    width: 90%;
-    img{
-        max-width: 400px;
-        height:300px ;
-        float: right;
-        border: 3px solid #ffff;
-        margin-left: 15PX;
+    display: flex;
+    margin: 30px;
+    gap: 50PX;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    .div-img {
+        img{
+            width: 300px;
+            margin: auto;
+        }
     }
+    div{
+        width: 350px;
+
+
+    }
+    
 }

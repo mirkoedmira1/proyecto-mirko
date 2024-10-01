@@ -113,77 +113,9 @@
         display: flex;
         flex-direction: column;
         font-size: 13px;
-        width: 90%;
+        width:auto;
 
     }
-    .lugares-img{
-        height: 350px;
-        object-fit: contain;
-
-
-    }
-    .parana {
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        flex-wrap: wrap;
-    }
-    .parana h3{
-        float: none;
-        text-align: center;
-    }
-    .parana img {
-        width:400px;
-    }
-    .rio-uruguay{
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-    }
-    .rio-uruguay img{
-        margin: 10px;
-        margin-bottom: 20px;
-        width: 500px;
-    }
-    .ibera{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-    }
-    .ibera img {
-        float: none;
-        width: 320px;
-        margin: auto;
-        margin-bottom: 20px;
-    }
-    .rioplata{
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-content: center;
-    }
-    .rioplata img{
-        width: 320px;
-        float: none;
-        margin-right: 60PX;
-    }
-    .patagonia img {
-        width: 400px;
-        height: 200px;
-        float: none;
-        margin: auto;
-        margin-bottom: 50px;
-    }
-    .patagonia h3{
-        display: none;
-        margin-top: 20PX;
     }
     .container-img{
         width: 400px;
@@ -216,7 +148,7 @@
         flex-wrap: wrap;
     }
     
-}
+
 @media (max-width:425px){
     .gridsfish{
         margin-top: 20px;
